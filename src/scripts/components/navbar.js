@@ -27,8 +27,8 @@ const navBar = () => {
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
-      <div id="logout-button" class="logout-btn"></div>
     </div>
+    <div id="logout-button" class="logout-btn"></div>
   </div>
 </nav>`;
 };
