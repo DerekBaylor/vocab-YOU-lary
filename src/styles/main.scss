@@ -11,3 +11,27 @@ body {
 .logout-btn {
   margin: 1em;
 }
+
+#main-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 100px;
+  align-content: center;
+}    
+
+#store {
+  display: flex;
+  flex-flow: row wrap;  
+}     
+
+.card{
+  width: 20em;
+  height: 25em;
+  margin: 10px;
+}
+
+.card-def{
+  height: 15em;
+  overflow: hidden;
+}
