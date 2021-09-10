@@ -9,6 +9,7 @@ const showVocab = (array) => {
       
       <div class="card-body">
         <h5 class="card-title">${item.vocab_word}</h5>
+        <p class="langOrTech">${item.langTech}</p>
         <hr>
         <p class="card-def">${item.vocab_def}</p>
         <hr>

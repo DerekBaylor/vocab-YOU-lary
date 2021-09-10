@@ -2,7 +2,7 @@ import domBuilder from '../components/domBuilder';
 import navBar from '../components/navbar';
 // domEvents
 // navEvents
-import logoutButton from '../components/logoutButton';
+import logoutButton from '../components/buttons/logoutButton';
 import { showVocab } from '../components/vocab';
 import getVocab from '../helpers/data/vocabData';
 
