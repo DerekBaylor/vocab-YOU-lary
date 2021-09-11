@@ -37,7 +37,7 @@ const deleteVocab = (firebaseKey, uid) => new Promise((resolve, reject) => {
     })
     .catch(reject);
 });
-
+// Get Single Vocab Word
 const getSingleVocab = (firebaseKey) => new Promise((resolve, reject) => {
   axios.get(`${dbUrl}/vocab/${firebaseKey}.json`)
     .then((response) => resolve(response.data))
