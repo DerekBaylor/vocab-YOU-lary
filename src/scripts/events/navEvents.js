@@ -1,5 +1,5 @@
 import showVocab from '../components/vocab';
-import { getVocab } from '../helpers/data/vocabData';
+import { filterVocabLang, filterVocabTech, getVocab } from '../helpers/data/vocabData';
 import addVocabForm from '../components/forms/addVocabFrom';
 
 const navEvents = (uid) => {
@@ -10,6 +10,13 @@ const navEvents = (uid) => {
   // Add Vocab Form Pop
   document.querySelector('#add-vocab').addEventListener('click', () => {
     addVocabForm(uid);
+  });
+  // Filter Language Vocab
+  document.querySelector('#lang-vocab').addEventListener('click', () => {
+    filterVocabLang(uid).then(showVocab);
+  });
+  document.querySelector('#tech-vocab').addEventListener('click', () => {
+    filterVocabTech(uid).then(showVocab);
   });
 };
 

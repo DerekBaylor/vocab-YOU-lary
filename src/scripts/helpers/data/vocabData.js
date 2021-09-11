@@ -43,11 +43,28 @@ const getSingleVocab = (firebaseKey) => new Promise((resolve, reject) => {
     .then((response) => resolve(response.data))
     .catch(reject);
 });
+// Filters Vocab by Language
+const filterVocabLang = (uid) => new Promise((resolve, reject) => {
+  getVocab(uid)
+    .then((userVocabArray) => {
+      const filterLang = userVocabArray.filter((vocab) => vocab.langTech.includes('L' || 'l'));
+      resolve(filterLang);
+    }).catch(reject);
+});
+const filterVocabTech = (uid) => new Promise((resolve, reject) => {
+  getVocab(uid)
+    .then((userVocabArray) => {
+      const filterTech = userVocabArray.filter((vocab) => vocab.langTech.includes('T' || 't'));
+      resolve(filterTech);
+    }).catch(reject);
+});
 
 export {
   getVocab,
   createVocab,
   updateVocab,
   deleteVocab,
-  getSingleVocab
+  getSingleVocab,
+  filterVocabLang,
+  filterVocabTech
 };

@@ -12,7 +12,7 @@ const addVocabForm = (uid, item = {}) => {
         </div>
         <div class="form-group">
             <label for="langTech">Language/Tech</label>
-            <textarea class="form-control" placeholder="Language or Tech" id="langTechForm" style="height: 100px">${item.langTech || ''}</textarea>
+            <textarea class="form-control" placeholder="Language or Tech" id="langTechForm" style="height: auto">${item.langTech || ''}</textarea>
         </div>
         <div class="form-group">
             <label for="definition">Definiton</label>
