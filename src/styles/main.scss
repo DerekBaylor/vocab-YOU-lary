@@ -21,17 +21,20 @@ body {
 }    
 
 #store {
+  width: 90%;
   display: flex;
   flex-flow: row wrap;  
+  justify-content: center;
 }     
 
 .card{
   width: 20em;
   height: 25em;
   margin: 10px;
+  border-color: brown;
 }
 
 .card-def{
-  height: 15em;
+  height: 13em;
   overflow: hidden;
 }
