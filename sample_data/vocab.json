@@ -4,69 +4,80 @@
         "vocab_def": "An algorithm is a set of instructions or rules designed to solve a definite problem. The problem can be simple like adding two numbers or a complex one, such as converting a video file from one format to another.",
         "langTech": "Language",
         "firebaseKey": "-Mj263szdsLYA9VNZ6NO",
-        "uid": "Glr8NN488VTQ22Bcxto8bJxcrM23"
+        "uid": "Glr8NN488VTQ22Bcxto8bJxcrM23",
+        "timeStamp": "2021-09-11T17:55:45.268Z"
+
     },
     "-Mj27HtRSDlHyCEHQcDL": {
         "vocab_word": "API",
         "vocab_def": "Application Programming Interface (API) is a set of rules, routines, and protocols to build software applications. APIs help in communication with third party programs or services, which can be used to build different software. Companies such as Facebook and Twitter actively use APIs to help developers gain easier access to their services.",
         "langTech": "Language",
         "firebaseKey": "-Mj27HtRSDlHyCEHQcDL",
-        "uid": "Glr8NN488VTQ22Bcxto8bJxcrM23"
+        "uid": "Glr8NN488VTQ22Bcxto8bJxcrM23",
+        "timeStamp": "2021-09-11T17:55:45.268Z"
     },
     "-Mj27N__MU6ZfkcqqVBL": {
         "vocab_word": "Boolean",
         "vocab_def": "A Boolean expression or Boolean logic is an expression used for creating statements that are either TRUE or FALSE. Boolean expressions use AND, OR, XOR, NOT and NOR operators with conditional statements in programming, search engines, algorithms, and formulas. Boolean expressions are also called comparison expressions, conditional expressions, and relational expressions.",
         "langTech": "Language",
         "firebaseKey": "-Mj27N__MU6ZfkcqqVBL",
-        "uid": "Glr8NN488VTQ22Bcxto8bJxcrM23"
+        "uid": "Glr8NN488VTQ22Bcxto8bJxcrM23",
+        "timeStamp": "2021-09-11T17:55:45.268Z"
     },
     "-Mj27RY-6jVM420ULj2n": {
         "vocab_word": "Bug",
         "vocab_def": "A bug is a general term used to denote an unexpected error or defect in hardware or software, which causes it to malfunction. Even though bugs are often considered to be insignificant computer glitches, there have been instances where bugs have caused life-threatening conditions and led to major financial losses. This makes it imperative to invest in the process of finding bugs before programs are rolled out for their application. This process is known as testing.",
         "langTech": "Language",
         "firebaseKey": "-Mj27RY-6jVM420ULj2n",
-        "uid": "Glr8NN488VTQ22Bcxto8bJxcrM23"
+        "uid": "Glr8NN488VTQ22Bcxto8bJxcrM23",
+        "timeStamp": "2021-09-11T17:55:45.268Z"
     },
     "-Mj27Uv6QUCtbqmAHfZr": {
         "vocab_word": "Object-Oriented Programming",
         "vocab_def": "Object-oriented programming (OOP) is a model defined by programmers that revolve around objects and data rather than ‘actions’ and ‘logic’. In OOP, not only the data type of a data structure is defined, but also the types of functions that can be applied to it. Through this, the data structure becomes an object that consists of both data and functions. Languages that use OOP concepts are Java, Python, C++, and Ruby.",
         "langTech": "Tech",
         "firebaseKey": "-Mj27Uv6QUCtbqmAHfZr",
-        "uid": "Glr8NN488VTQ22Bcxto8bJxcrM23"
+        "uid": "Glr8NN488VTQ22Bcxto8bJxcrM23",
+        "timeStamp": "2021-09-11T17:55:45.268Z"
     },
     "-Mj27_Pg4KjPLvCRDxrD": {
         "vocab_word": "Framework",
         "vocab_def": "Framework in programming is a foundation with a specified level of complexity that may be altered by the programmer, making use of their code. A framework might include different software libraries, APIs, compilers and much more. In simpler terms, a framework provides a favorable environment for a certain type and level of programming for a project. A framework allows the developers to bypass the general necessities and focus on more project-related specifics.",
         "langTech": "Tech",
         "firebaseKey": "-Mj27_Pg4KjPLvCRDxrD",
-        "uid": "Glr8NN488VTQ22Bcxto8bJxcrM23"
+        "uid": "Glr8NN488VTQ22Bcxto8bJxcrM23",
+        "timeStamp": "2021-09-11T17:55:45.268Z"
     },
     "-Mj289gfR5P1Q3WOxXrt": {
         "vocab_word": "Token",
         "vocab_def": "A token is the smallest individual unit in a program, often referring to a portion of a much larger data piece. For example, if a person’s name is John Thomas Wood, it can be broken into tokens; ‘John’, ‘Thomas’ and ‘Wood’. The programmer can then go on to use only the portion or token they wish to. Tokens are classified into keywords, identifiers, literals, operators, and punctuators.",
         "langTech": "Language",
         "firebaseKey": "-Mj289gfR5P1Q3WOxXrt",
-        "uid": ""
+        "uid": "",
+        "timeStamp": "2021-09-11T17:55:45.268Z"
     },
     "-Mj28E_NZbjJcbZzjgou": {
         "vocab_word": "Machine language",
         "vocab_def": "Also known as machine code, machine language is a lowest-level programming language consisting of binary digits or bits that are read by computers. Machine language is the only language understood by computers. As it consists of only numbers, they cannot be comprehended by humans. Therefore, programmers write code in the high-level language, which is then translated into assembly language or machine language by a compiler, which is then converted to a machine language by an assembler.",
         "langTech": "Language",
         "firebaseKey": "-Mj28E_NZbjJcbZzjgou",
-        "uid": ""
+        "uid": "",
+        "timeStamp": "2021-09-11T17:55:45.268Z"
     },
     "-Mj28OdbbthALYsEMtCj": {
         "vocab_word": "High-level language",
         "vocab_def": "A high-level language (HLL) is a programming language that lets the developer write programs irrespective of the nature or type of computer. But if a computer has to understand a high-level language, it should be compiled into a machine language. HLLs are considered high-level because they are in close proximity to human languages and further from machine languages. High-level languages include BASIC, C, C++, Pascal, Prolog, and FORTRAN.",
         "langTech": "Language",
         "firebaseKey": "-Mj28OdbbthALYsEMtCj",
-        "uid": ""
+        "uid": "",
+        "timeStamp": "2021-09-11T17:55:45.268Z"
     },
     "-Mj28TfhvKRrCq_wvArY": {
         "vocab_word": "Low-level language",
         "vocab_def": "A low-level language is a language that is very close to machine language and provides a little abstraction of programming concepts. Low-level languages are closer to the hardware than human languages. The most common examples of low-level languages are assembly and machine code.",
         "langTech": "Language",
         "firebaseKey": "-Mj28TfhvKRrCq_wvArY",
-        "uid": ""
+        "uid": "",
+        "timeStamp": "2021-09-11T17:55:45.268Z"
     }
 }
