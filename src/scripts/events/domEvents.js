@@ -39,7 +39,7 @@ const domEvents = (uid) => {
       getSingleVocab(id).then((vocabObj) => addVocabForm(uid, vocabObj));
     }
 
-    // Click Event for Updating a V
+    // Click Event for Updating Vocab
     if (e.target.id.includes('update-vocab')) {
       e.preventDefault();
       const [, firebaseKey] = e.target.id.split('--');
@@ -54,7 +54,7 @@ const domEvents = (uid) => {
       updateVocab(vocabObject).then(showVocab);
     }
 
-    // ADD CLICK EVENT TO VIEW BOOK DETAILS
+    // Click Event to View Vocab Details
     if (e.target.id.includes('view-vocab-btn')) {
       const [, firebaseKey] = e.target.id.split('--');
       viewVocab(firebaseKey).then(viewVocab);
