@@ -18,7 +18,7 @@ const addVocabForm = (uid, item = {}) => {
         <textarea class="form-control" placeholder="Vocab Definiton" id="definitionForm" style="height: 100px">${item.vocab_def || ''}</textarea>
     </div>
         <button type="submit" 
-        id="${item.firebaseKey ? `update-vocab--${item.firebaseKey}` : 'submit-vocab'}" class="btn btn-primary">Submit Vocab
+        id="${item.firebaseKey ? `update-vocab--${item.firebaseKey}` : 'submit-vocab'}" class="btn btn-primary submit-btn">Submit Vocab
         </button>
   </form>`;
 };

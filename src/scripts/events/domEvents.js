@@ -6,7 +6,6 @@ import {
   deleteVocab,
   getSingleVocab,
 } from '../helpers/data/vocabData';
-import viewVocab from '../views/viewVocab';
 
 const domEvents = (uid) => {
   document.querySelector('#main-container').addEventListener('click', (e) => {
@@ -52,12 +51,6 @@ const domEvents = (uid) => {
       };
 
       updateVocab(vocabObject).then(showVocab);
-    }
-
-    // Click Event to View Vocab Details
-    if (e.target.id.includes('view-vocab-btn')) {
-      const [, firebaseKey] = e.target.id.split('--');
-      viewVocab(firebaseKey).then(viewVocab);
     }
   }); // Master Closing Braket
 };
