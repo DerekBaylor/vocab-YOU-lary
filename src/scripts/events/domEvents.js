@@ -1,5 +1,6 @@
 import addVocabForm from '../components/forms/addVocabFrom';
 import showVocab from '../components/vocab';
+import CreateTimeStamp from '../helpers/data/createtTimeStamp';
 import {
   createVocab,
   updateVocab,
@@ -26,7 +27,8 @@ const domEvents = (uid) => {
         vocab_word: document.querySelector('#wordForm').value,
         vocab_def: document.querySelector('#definitionForm').value,
         langTech: document.querySelector('#langTechForm').value,
-        uid
+        uid,
+        timeStamp: CreateTimeStamp(),
       };
 
       createVocab(vocabObj).then((vocabArray) => showVocab(vocabArray));
@@ -47,7 +49,7 @@ const domEvents = (uid) => {
         vocab_def: document.querySelector('#definitionForm').value,
         langTech: document.querySelector('#langTechForm').value,
         firebaseKey,
-        uid
+        uid,
       };
 
       updateVocab(vocabObject).then(showVocab);
