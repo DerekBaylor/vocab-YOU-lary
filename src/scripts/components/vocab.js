@@ -20,8 +20,4 @@ const showVocab = (array) => {
   });
 };
 
-const emptyVocab = () => {
-  document.querySelector('#store').innerHTML = '<h1>No Vocabulary</h1>';
-};
-
-export { showVocab, emptyVocab };
+export default showVocab;

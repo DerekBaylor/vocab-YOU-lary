@@ -1,5 +1,5 @@
 import addVocabForm from '../components/forms/addVocabFrom';
-import { showVocab } from '../components/vocab';
+import showVocab from '../components/vocab';
 import {
   createVocab,
   updateVocab,
@@ -11,7 +11,7 @@ import viewVocab from '../views/viewVocab';
 const domEvents = (uid) => {
   document.querySelector('#main-container').addEventListener('click', (e) => {
     // Click Event for deleting vocab cards.
-    if (e.target.includes('delete-vocab')) {
+    if (e.target.id.includes('delete-vocab')) {
       // eslint-disable-next-line no-alert
       if (window.confirm('Are you sure?')) {
         const [, id] = e.target.id.split('--');
@@ -25,7 +25,7 @@ const domEvents = (uid) => {
       e.preventDefault();
       const vocabObj = {
         vocab_word: document.querySelector('#wordForm').value,
-        vocab_def: document.querySelector('#definitionFrom').value,
+        vocab_def: document.querySelector('#definitionForm').value,
         langTech: document.querySelector('#langTechForm').value,
         uid
       };
@@ -45,7 +45,7 @@ const domEvents = (uid) => {
       const [, firebaseKey] = e.target.id.split('--');
       const vocabObject = {
         vocab_word: document.querySelector('#wordForm').value,
-        vocab_def: document.querySelector('#definitionFrom').value,
+        vocab_def: document.querySelector('#definitionForm').value,
         langTech: document.querySelector('#langTechForm').value,
         firebaseKey,
         uid
