@@ -1,8 +1,10 @@
 const navBar = () => {
   document.querySelector('#navigation').innerHTML = `
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class= "card logo-card">
     <div class="logo-body">
     <img src="https://thumbs.dreamstime.com/b/vocabulary-text-written-red-grungy-zig-zag-borders-round-stamp-vocabulary-text-written-red-grungy-round-stamp-220919694.jpg" alt="vocabulary logo" class="card-image">
+    </div>
     </div>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
