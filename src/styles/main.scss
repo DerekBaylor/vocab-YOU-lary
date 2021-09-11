@@ -48,6 +48,11 @@ body {
 width: 30rem;  
 border-color: brown;
 }
+.form-card{
+  height: fit-content;
+  width: fit-content;
+  border-color: brown;
+}
 .submit-btn{
   margin: 5px;
 }
@@ -59,5 +64,4 @@ border-color: brown;
 .card-image{
   height: auto;
   width: 6rem;
-  
 }
