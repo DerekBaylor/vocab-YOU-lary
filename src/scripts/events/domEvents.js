@@ -10,7 +10,6 @@ import {
 
 const domEvents = (uid) => {
   document.querySelector('#main-container').addEventListener('click', (e) => {
-    // Click Event for deleting vocab cards.
     if (e.target.id.includes('delete-vocab')) {
       // eslint-disable-next-line no-alert
       if (window.confirm('Are you sure?')) {
@@ -20,7 +19,6 @@ const domEvents = (uid) => {
       }
     }
 
-    // Click Event for Submitting a new Vocab Word
     if (e.target.id.includes('submit-vocab')) {
       e.preventDefault();
       const vocabObj = {
@@ -33,14 +31,12 @@ const domEvents = (uid) => {
 
       createVocab(vocabObj).then((vocabArray) => showVocab(vocabArray));
     }
-    // Click Event for Updating Vocab Words
     if (e.target.id.includes('edit-vocab')) {
       const [, id] = e.target.id.split('--');
 
       getSingleVocab(id).then((vocabObj) => addVocabForm(uid, vocabObj));
     }
 
-    // Click Event for Updating Vocab
     if (e.target.id.includes('update-vocab')) {
       e.preventDefault();
       const [, firebaseKey] = e.target.id.split('--');
@@ -54,7 +50,7 @@ const domEvents = (uid) => {
 
       updateVocab(vocabObject).then(showVocab);
     }
-  }); // Master Closing Braket
+  });
 };
 
 export default domEvents;
